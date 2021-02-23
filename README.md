@@ -1,6 +1,6 @@
 # **Friday Web Automation**
 # **Selenium Testng Project**
-UI test automation project for "friday.de". TestNG used for starting my tests and for assertions, Selenium Webdriver for browser automation.  The JAVA Project used Chrome Browser.
+UI test automation project for "friday.de". Added the required dependencies for TestNG and Selenium to the POM file. TestNG used for starting my tests and for assertions, Selenium Webdriver for browser automation.  The JAVA Project used Chrome Browser.
 Maven is used as build tool. The Page-Object-Pattern is used straight away to specify elements.
 It has a package for  utilities where all drivers and utilities are stored. The necessary information is added in configuration.properties file and can be reached that info with the help of configuration.readers class.
 Driver class is designed with Singleton Design Pattern. HTML reports are generated with ExtentReports.
